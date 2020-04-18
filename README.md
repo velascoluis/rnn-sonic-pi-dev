@@ -10,7 +10,8 @@ Can I build a RNN that automatically generates sonic Pi music code?
 
 There is plenty of sonic Pi code avaiable on github, I have came across this great [repo](https://gist.github.com/rbnpi) by Robin Newman.   After searching a bit I have selected [this](https://gist.github.com/rbnpi/8785fd93087ca115ff2799f8bd72153c) piece by Purcell.  
 You can listen it on [soundCloud](https://soundcloud.com/user-195236670/play-purcell)
-The code follows the next pattern
+How can we auto generate the code?
+sonic Pi has a lot of fetures and ways to code, but this particulary example is nice and suitable for ML as the code follows the next pattern:
 ```
 a1=[]
 b1=[]
