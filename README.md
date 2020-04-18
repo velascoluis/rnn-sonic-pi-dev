@@ -7,6 +7,7 @@ Lately, I have been learning the main concepts of RNNs thanks to this great [cou
 Can I build a RNN that automatically generates sonic Pi music code?
 
 ##The data
+
 There is plenty of sonic Pi code avaiable on github, I have came across this great [one](https://gist.github.com/rbnpi) by Robin Newman. After looking a bit I have selected [this](https://gist.github.com/rbnpi/8785fd93087ca115ff2799f8bd72153c) piece by Purcell
 You can listen it on [soundCloud](https://soundcloud.com/user-195236670/play-purcell)
 The code follows the next pattern
@@ -35,6 +36,7 @@ Where:
 To make things easier we are going to only try to learn the notes list, leaving the duration and the bpm static. So I have created a training set extracting the notes list. Training data is on the ```train_data.rb``` file
 
 ##The model
+
 Tokenizer wise we can go full ahead with word_tokens (not char) as the corpus size is relatively small.  
 Below is the architecture used for training the model
 ```
@@ -63,6 +65,7 @@ After doing some tests, the model converges nicely with 100 epochs:
 Time to run some predictions then! Lets start with a couple of notes ```AF5,C4``` and ask the network to generate 5000 more notes
 
 ##The results
+
 So we have the prediction back. How will it sound? 
 
 [Listen to the results](https://soundcloud.com/luis-velasco-11/full-ml-melody)
