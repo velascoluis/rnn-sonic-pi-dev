@@ -8,7 +8,7 @@ Can I build a RNN that automatically generates sonic Pi music code?
 
 ## The data
 
-There is plenty of sonic Pi code avaiable on github, I have came across this great [repo](https://gist.github.com/rbnpi) by Robin Newman. After looking a bit I have selected [this](https://gist.github.com/rbnpi/8785fd93087ca115ff2799f8bd72153c) piece by Purcell.  
+There is plenty of sonic Pi code avaiable on github, I have came across this great [repo](https://gist.github.com/rbnpi) by Robin Newman.   After searching a bit I have selected [this](https://gist.github.com/rbnpi/8785fd93087ca115ff2799f8bd72153c) piece by Purcell.  
 You can listen it on [soundCloud](https://soundcloud.com/user-195236670/play-purcell)
 The code follows the next pattern
 ```
